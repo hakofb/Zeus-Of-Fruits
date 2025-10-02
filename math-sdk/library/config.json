@@ -1,0 +1,14 @@
+{
+  "game_id": "gates_of_olympus",
+  "target_rtp": 96.0,
+  "bet_modes": {
+    "MODE_BASE": {
+      "name": "Base Game",
+      "cost": 1.0
+    },
+    "MODE_FREESPIN": {
+      "name": "Free Spins",
+      "cost": 0.0
+    }
+  }
+}

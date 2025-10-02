@@ -1,0 +1,71 @@
+{
+  "game_id": "gates_of_olympus",
+  "game_name": "Gates of Olympus",
+  "rows": 6,
+  "cols": 5,
+  "symbols": [
+    "blue_gem",
+    "green_gem",
+    "yellow_gem",
+    "purple_gem",
+    "red_gem",
+    "cup",
+    "ring",
+    "hourglass",
+    "crown",
+    "scatter",
+    "multiplier"
+  ],
+  "paytable": {
+    "crown": [0, 0, 0, 0, 0, 0, 0, 0, 2.8, 4.5, 9, 22, 45],
+    "hourglass": [0, 0, 0, 0, 0, 0, 0, 0, 0.55, 1.1, 2.3, 4.5, 7.5],
+    "ring": [0, 0, 0, 0, 0, 0, 0, 0, 0.9, 1.8, 3.6, 7, 11],
+    "cup": [0, 0, 0, 0, 0, 0, 0, 0, 1.4, 2.8, 5.5, 11, 23],
+    "red_gem": [0, 0, 0, 0, 0, 0, 0, 0, 0.23, 0.45, 1.1, 1.8, 3.6],
+    "purple_gem": [0, 0, 0, 0, 0, 0, 0, 0, 0.28, 0.55, 1.4, 2.3, 4.5],
+    "yellow_gem": [0, 0, 0, 0, 0, 0, 0, 0, 0.28, 0.55, 1.4, 2.3, 4.5],
+    "green_gem": [0, 0, 0, 0, 0, 0, 0, 0, 0.18, 0.36, 0.9, 1.6, 2.8],
+    "blue_gem": [0, 0, 0, 0, 0, 0, 0, 0, 0.14, 0.28, 0.7, 1.4, 2.3],
+    "scatter": [0, 0, 0, 0, 2, 3, 10, 20, 50, 100, 250, 500, 1000]
+  },
+  "bet_modes": {
+    "MODE_BASE": {
+      "name": "Base Game",
+      "cost": 1.0
+    },
+    "MODE_FREESPIN": {
+      "name": "Free Spins",
+      "cost": 0.0
+    }
+  },
+  "animations": {
+    "symbol_entry": {
+      "duration": 300,
+      "easing": "easeOutBounce"
+    },
+    "win_highlight": {
+      "duration": 500,
+      "loop": 3,
+      "easing": "easeInOutSine"
+    },
+    "multiplier_drop": {
+      "duration": 800,
+      "easing": "easeOutElastic"
+    }
+  },
+  "sounds": {
+    "spin": "spin.mp3",
+    "win": "win.mp3",
+    "scatter": "scatter.mp3",
+    "multiplier": "multiplier.mp3",
+    "freespin_trigger": "freespin_trigger.mp3"
+  },
+  "ui": {
+    "theme": "olympus",
+    "colors": {
+      "primary": "#FFD700",
+      "secondary": "#4169E1",
+      "accent": "#FF6B6B"
+    }
+  }
+}
